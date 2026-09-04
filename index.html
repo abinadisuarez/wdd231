@@ -4,11 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <title>WDD 231 | Abinadi Suarez</title>
+    <meta name="description"
+        content="Abinadi Suarez's WDD 231 course home page, featuring his finished courses, a bio, and links to his upcoming Chamber of Commerce and capstone Final projects.">
+    <meta name="author" content="Hector Abinadi Suarez Valderrama">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 
 <body>
-    <h1>Abinadi Suarez</h1>
+    <header>
+        <div class="brand">
+            <img src="images/logo.svg" alt="" class="logo">
+            <span>Abinadi Suarez</span>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="final/index.html">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <div class="intro-grid">
+            <section>
+                <h2>About Me</h2>
+                <p>Hello, my name is Héctor Abinadí Suárez Valderrama. I live in Venezuela and am married to a wonderful
+                    wife, and together
+                    we are raising 6 amazing children.</p>
+                <p>I am a passionate digital marketing expert with 24 years of experience. I consider myself passionate
+                    because I truly
+                    love what I do, and I consider myself an expert because I believe I am very good at it, especially
+                    with
+                    strategies that
+                    work today.</p>
+                <p>I run an online bilingual (English and Spanish) digital marketing agency. I have created over 3,000
+                    digital marketing
+                    training videos, worked with more than 290 brands, and managed over 49 projects on behalf of my
+                    current
+                    clients, who run
+                    7-figure online businesses.</p>
+            </section>
+            <section>
+                <h2>Student Photo</h2>
+                <img src="images/student-photo.jpg" alt="Photo of Héctor Abinadí Suárez Valderrama"
+                    class="student-photo">
+            </section>
+        </div>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="CSE">CSE</button>
+                <button class="filter-btn" data-filter="WDD">WDD</button>
+            </div>
+            <div id="courseList" class="course-list"></div>
+            <p id="totalCredits" class="total-credits"></p>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social-links">
+            <li><a href="https://github.com/abinadisuarez" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/abinadisuarez/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/abinadisuarez" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+
+        <p>&copy; <span id="currentyear"></span> Hector Abinadi Suarez Valderrama | Venezuela</p>
+
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>

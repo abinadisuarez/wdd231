@@ -1,0 +1,228 @@
+:root {
+    --color-primary: #0F4C5C;
+    --color-accent: #E9B44C;
+    --color-bg: #F5F7F8;
+    --color-text: #1A1A1A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-primary);
+    padding: 0.75rem 1.25rem;
+    position: relative;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.brand span {
+    color: white;
+    font-weight: 600;
+}
+
+nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    z-index: 10;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.open {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.85rem 1.25rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+    background: rgba(255, 255, 255, 0.15);
+    border-left: 3px solid var(--color-accent);
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.6rem;
+    height: 1.15rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.logo {
+    width: 2.25rem;
+    height: 2.25rem;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+main {
+    padding: 1.1rem 1.25rem 2rem;
+}
+
+h1,
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+section {
+    background: white;
+    border: 1px solid #d8dce1;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+section h2 {
+    background: var(--color-primary);
+    color: white;
+    margin: 0;
+    padding: 0.55rem 0.9rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+section p {
+    padding: 0 1rem;
+}
+
+.student-photo {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.8rem;
+}
+
+.filter-btn {
+    flex: 1;
+    background: var(--color-bg);
+    border: 1px solid #d8dce1;
+    border-radius: 7px;
+    padding: 0.55rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.filter-btn.active {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0 0.8rem 0.8rem;
+}
+
+.course-card {
+    flex: 1 1 6rem;
+    border: 1px solid #d8dce1;
+    border-radius: 7px;
+    padding: 0.6rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.course-card.completed {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.total-credits {
+    padding: 0 1rem 1rem;
+    text-align: center;
+}
+
+footer {
+    background: var(--color-primary);
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.social-links a {
+    color: white;
+    font-weight: 700;
+}
+
+footer p {
+    margin: 0.3rem 0;
+}
