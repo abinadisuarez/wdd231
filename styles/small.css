@@ -12,6 +12,8 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
 }
 
 img {
@@ -104,11 +106,6 @@ nav a:hover {
     background: white;
     border-radius: 50%;
     padding: 2px;
-}
-
-body {
-    background: var(--color-bg);
-    color: var(--color-text);
 }
 
 main {
