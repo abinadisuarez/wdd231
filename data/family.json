@@ -1,0 +1,48 @@
+{
+    "family_name": "Suarez",
+    "move_in_date": "2024-06-24",
+    "number_of_people": 8,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Abinadi Suarez",
+            "gender": "Male",
+            "birthdate": "1984-05-16"
+        },
+        {
+            "name": "Liseth de Suarez",
+            "gender": "Female",
+            "birthdate": "1984-03-28"
+        },
+        {
+            "name": "Sebastian Suarez",
+            "gender": "Male",
+            "birthdate": "2007-05-27"
+        },
+        {
+            "name": "Juan Andres Suarez",
+            "gender": "Male",
+            "birthdate": "2007-05-27"
+        },
+        {
+            "name": "Isabella Suarez",
+            "gender": "Female",
+            "birthdate": "2008-11-10"
+        },
+        {
+            "name": "Abel Suarez",
+            "gender": "Male",
+            "birthdate": "2012-05-27"
+        },
+        {
+            "name": "Enma Suarez",
+            "gender": "Female",
+            "birthdate": "2016-05-27"
+        },
+        {
+            "name": "Juan Sebastian Suarez",
+            "gender": "Male",
+            "birthdate": "2019-05-27"
+        }
+    ]
+}
