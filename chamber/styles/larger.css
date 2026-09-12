@@ -1,0 +1,28 @@
+@media screen and (min-width: 700px) {
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        position: static;
+        background: transparent;
+    }
+
+    nav ul {
+        display: flex !important;
+        flex-direction: row;
+    }
+
+    nav a {
+        border-left: none;
+        border-bottom: 3px solid transparent;
+    }
+
+    nav a[aria-current="page"] {
+        border-left: none;
+        border-bottom-color: var(--color-accent);
+        background: transparent;
+    }
+
+}

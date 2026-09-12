@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valera Chamber of Commerce | Business Directory</title>
+    <link rel="icon" href="../favicon.ico">
+    <meta property="og:title" content="Valera Chamber of Commerce | Business Directory">
+    <meta property="og:description"
+        content="The official Valera Chamber of Commerce directory — browse member businesses, services, and contacts. For residents, entrepreneurs, and visitors in Valera.">
+    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://abinadisuarez.github.io/wdd231/images/student-photo.jpg">
+    <meta name="description"
+        content="The official Valera Chamber of Commerce directory — browse member businesses, services, and contacts. For residents, entrepreneurs, and visitors in Valera.">
+    <meta name="author" content="Hector Abinadi Suarez Valderrama">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="../scripts/navigation.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="../images/logo.svg" alt="" class="logo">
+            <span>Valera Chamber of Commerce</span>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="../chamber-home/index.html">Home</a></li>
+                <li><a href="../discover/index.html">Discover</a></li>
+                <li><a href="directory.html" aria-current="page">Directory</a></li>
+                <li><a href="../join/index.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Member Directory</h1>
+        <div id="viewToggle">
+            <button id="gridBtn" aria-label="Grid view">Grid</button>
+            <button id="listBtn" aria-label="List view">List</button>
+        </div>
+        <div id="memberList"></div>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Valera Chamber of Commerce</p>
+            <p>Av. Bolívar, Valera, Estado Trujillo, Venezuela</p>
+            <p>Phone: (271) 555-0100</p>
+        </div>
+        <div class="dev-info">
+            <p>Hector Abinadi Suarez Valderrama | WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+
+</html>

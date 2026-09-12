@@ -1,0 +1,173 @@
+:root {
+    --color-primary: #0F4C5C;
+    --color-accent: #E9B44C;
+    --color-bg: #F5F7F8;
+    --color-text: #1A1A1A;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    padding: 1rem 1.25rem 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-primary);
+    padding: 0.75rem 1.25rem;
+    position: relative;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.brand span {
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    width: 2.25rem;
+    height: 2.25rem;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    z-index: 10;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.open {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.85rem 1.25rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+    background: rgba(255, 255, 255, .15);
+    border-left: 3px solid var(--color-accent);
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1.6rem;
+    height: 1.15rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+#viewToggle {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 1.25rem 0;
+}
+
+#viewToggle button {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#memberList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+#memberList.list-view {
+    display: block;
+}
+
+#memberList section {
+    background: white;
+    border: 1px solid #d8dce1;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+#memberList.list-view section {
+    margin-bottom: 1rem;
+}
+
+#memberList section img {
+    width: 100%;
+    height: auto;
+}
+
+#memberList section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: var(--color-primary);
+    padding: 0 1rem;
+    margin: 0.5rem 0 0.25rem;
+}
+
+#memberList section p,
+#memberList section a {
+    padding: 0 1rem;
+    margin: 0.25rem 0;
+    display: block;
+}
