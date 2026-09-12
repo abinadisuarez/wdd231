@@ -21,7 +21,7 @@ const displayMembers = (members) => {
 
         name.textContent = member.name;
 
-        image.setAttribute('src', member.image);
+        image.setAttribute('src', `images/${member.image}`);
         image.setAttribute('alt', `${member.name} logo`);
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '300');

@@ -5,7 +5,7 @@
             "address": "Av. Bolívar, Sector Centro, Valera, Trujillo",
             "phone": "0271-2213456",
             "website": "https://laespigadoradavalera.com",
-            "image": "https://placehold.co/300x200/8B4513/FFF8DC?text=Panaderia+La+Espiga",
+            "image": "panaderia-la-espiga.png",
             "membershipLevel": 3,
             "category": "Panadería y Repostería"
         },
@@ -14,7 +14,7 @@
             "address": "Av. Independencia, Sector La Beba, Valera, Trujillo",
             "phone": "0271-2245678",
             "website": "https://ferreterialosandes.com.ve",
-            "image": "https://placehold.co/300x200/2F4F4F/FFFFFF?text=Ferreteria+Los+Andes",
+            "image": "ferreteria-los-andes.png",
             "membershipLevel": 2,
             "category": "Ferretería y Materiales de Construcción"
         },
@@ -23,7 +23,7 @@
             "address": "Av. Carabobo, Centro, Valera, Trujillo",
             "phone": "0271-2231122",
             "website": "https://elfogontrujillano.com",
-            "image": "https://placehold.co/300x200/8B0000/FFFFFF?text=El+Fogon+Trujillano",
+            "image": "el-fogon-trujillano.png",
             "membershipLevel": 3,
             "category": "Restaurante y Gastronomía"
         },
@@ -32,7 +32,7 @@
             "address": "Calle 8 entre Av. 9 y 10, Valera, Trujillo",
             "phone": "0271-2256789",
             "website": "https://farmaciasanrafaelvalera.com",
-            "image": "https://placehold.co/300x200/006400/FFFFFF?text=Farmacia+San+Rafael",
+            "image": "farmacia-san-rafael.png",
             "membershipLevel": 1,
             "category": "Salud y Farmacia"
         },
@@ -41,7 +41,7 @@
             "address": "Av. Los Estudiantes, Sector Monseñor Carrillo, Valera, Trujillo",
             "phone": "0414-7712345",
             "website": "https://valeramotors.com",
-            "image": "https://placehold.co/300x200/1C1C1C/FFD700?text=Valera+Motors",
+            "image": "valera-motors.png",
             "membershipLevel": 2,
             "category": "Automotriz y Mecánica"
         },
@@ -50,7 +50,7 @@
             "address": "Av. 10 con Calle 9, Centro, Valera, Trujillo",
             "phone": "0271-2219900",
             "website": "https://libreriaelsaber.com.ve",
-            "image": "https://placehold.co/300x200/4682B4/FFFFFF?text=Libreria+El+Saber",
+            "image": "libreria-el-saber.png",
             "membershipLevel": 1,
             "category": "Papelería y Educación"
         },
@@ -59,7 +59,7 @@
             "address": "Av. Bolívar con Av. 12, Valera, Trujillo",
             "phone": "0271-2233445",
             "website": "https://hoteltrujilloplaza.com",
-            "image": "https://placehold.co/300x200/0F4C5C/E9B44C?text=Hotel+Trujillo+Plaza",
+            "image": "hotel-trujillo-plaza.png",
             "membershipLevel": 3,
             "category": "Hospedaje y Turismo"
         },
@@ -68,7 +68,7 @@
             "address": "Av. 9 entre Calles 7 y 8, Valera, Trujillo",
             "phone": "0424-5567890",
             "website": "https://cybervaleranet.com",
-            "image": "https://placehold.co/300x200/483D8B/FFFFFF?text=Cyber+Valera+Net",
+            "image": "cyber-valera-net.png",
             "membershipLevel": 1,
             "category": "Tecnología y Servicios de Internet"
         }
