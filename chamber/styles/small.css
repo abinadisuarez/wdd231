@@ -9,6 +9,7 @@
     --color-overlay-strong: #FFFFFF26;
     --color-overlay-soft: #FFFFFF1A;
     --color-divider: #FFFFFF33;
+    --color-backdrop: #00000099;
 }
 
 * {
@@ -304,9 +305,13 @@ main {
 }
 
 .spotlight-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
     border: 1px solid var(--color-border);
     border-radius: 10px;
     overflow: hidden;
+    padding-bottom: 1rem;
 }
 
 .spotlight-card img {
@@ -327,9 +332,26 @@ main {
     display: block;
 }
 
-.spotlight-card.level-3 .membership-level {
-    color: var(--color-accent);
+.spotlight-card a {
+    margin-top: auto;
+    padding-top: 0.75rem;
+    color: var(--color-primary);
     font-weight: 700;
+}
+
+.spotlight-card .membership-level {
+    align-self: flex-start;
+    margin: 0.75rem 1rem 0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-weight: 700;
+    background: var(--color-silver);
+    color: var(--color-text);
+}
+
+.spotlight-card.level-3 .membership-level {
+    background: var(--color-accent);
+    color: var(--color-primary);
 }
 
 .spotlight-card.level-2 {
@@ -338,4 +360,182 @@ main {
 
 .forecast-card img {
     margin: 0 auto;
+}
+
+#current-temp {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.weather h3 {
+    margin: 0 0 0.75rem;
+    color: var(--color-primary);
+}
+
+.join-layout {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.join-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: 1.25rem;
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    font-weight: 600;
+}
+
+.join-form input:not([type="submit"]),
+.join-form select,
+.join-form textarea {
+    padding: 0.6rem;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.join-form input[type="submit"] {
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.join-form :focus-visible,
+.learn-more:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+.membership-cards h2 {
+    margin-top: 0;
+    color: var(--color-primary);
+}
+
+.membership-card {
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-left: 5px solid var(--color-primary);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+#silver-card {
+    border-left-color: var(--color-silver);
+}
+
+#gold-card {
+    border-left-color: var(--color-accent);
+}
+
+.membership-card h3 {
+    margin: 0 0 0.25rem;
+    color: var(--color-primary);
+}
+
+.membership-card p {
+    margin: 0 0 0.75rem;
+}
+
+.learn-more {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--color-primary);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 1.5rem;
+    max-width: min(90vw, 28rem);
+}
+
+dialog::backdrop {
+    background: var(--color-backdrop);
+}
+
+dialog h2 {
+    margin-top: 0;
+    color: var(--color-primary);
+}
+
+dialog .price {
+    font-weight: 700;
+}
+
+.close-modal {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+@keyframes card-appear {
+    from {
+        opacity: 0;
+        transform: translateY(1.5rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.membership-card {
+    animation: card-appear 0.6s ease-out both;
+}
+
+.membership-card:nth-of-type(2) {
+    animation-delay: 0.15s;
+}
+
+.membership-card:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+
+.membership-card:nth-of-type(4) {
+    animation-delay: 0.45s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .membership-card {
+        animation: none;
+    }
+}
+
+#results {
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-left: 5px solid var(--color-accent);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+}
+
+#results p {
+    margin: 0.5rem 0;
 }
