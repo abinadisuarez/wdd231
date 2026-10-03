@@ -435,6 +435,7 @@ main {
     border-radius: 10px;
     padding: 1rem 1.25rem;
     margin-bottom: 1rem;
+    animation: card-appear 0.6s ease-out both;
 }
 
 #silver-card {
@@ -504,10 +505,6 @@ dialog .price {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.membership-card {
-    animation: card-appear 0.6s ease-out both;
 }
 
 .membership-card:nth-of-type(2) {
