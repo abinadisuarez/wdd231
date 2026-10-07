@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valera Chamber of Commerce | Business Directory</title>
+    <title>Discover Valera | Valera Chamber of Commerce</title>
     <link rel="icon" href="../favicon.ico">
-    <meta property="og:title" content="Valera Chamber of Commerce | Business Directory">
+    <meta property="og:title" content="Discover Valera | Valera Chamber of Commerce">
     <meta property="og:description"
-        content="The official Valera Chamber of Commerce directory — browse member businesses, services, and contacts. For residents, entrepreneurs, and visitors in Valera.">
-    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/chamber/directory.html">
+        content="Explore eight places worth visiting in Valera, Trujillo — churches, plazas, historic sites and landmarks recommended by the Chamber.">
+    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/chamber/discover.html">
     <meta property="og:image" content="https://abinadisuarez.github.io/wdd231/images/student-photo.jpg">
     <meta name="description"
-        content="The official Valera Chamber of Commerce directory — browse member businesses, services, and contacts. For residents, entrepreneurs, and visitors in Valera.">
+        content="Discover eight places to visit in Valera, Trujillo, Venezuela — churches, plazas, historic sites and landmarks chosen by the Valera Chamber of Commerce.">
     <meta name="author" content="Hector Abinadi Suarez Valderrama">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,7 +25,7 @@
         rel="stylesheet">
     <script src="../scripts/navigation.js" defer></script>
     <script src="../scripts/date.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
 </head>
 
 <body>
@@ -41,19 +42,16 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html" aria-current="page">Directory</a></li>
+                <li><a href="discover.html" aria-current="page">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Member Directory</h1>
-        <div id="viewToggle">
-            <button id="gridBtn" aria-label="Grid view">Grid</button>
-            <button id="listBtn" aria-label="List view">List</button>
-        </div>
-        <div id="memberList"></div>
+    <main class="discover">
+        <h1>Discover Valera</h1>
+        <p id="visit-message"></p>
+        <div id="places"></div>
     </main>
     <footer>
         <div class="contact-info">
