@@ -5,72 +5,96 @@
             "address": "Av. Bolívar, Sector Centro, Valera, Trujillo",
             "phone": "0271-2213456",
             "website": "https://laespigadoradavalera.com",
-            "image": "panaderia-la-espiga.png",
+            "image": "panaderia-la-espiga.webp",
             "membershipLevel": 3,
-            "category": "Panadería y Repostería"
+            "category": "Panadería y Repostería",
+            "imageAlt": "Breads and pastries on trays in a bakery display",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E5%8D%97%E5%B1%B1%E5%8D%80_Nanshan_%E6%B7%B1%E5%9C%B3%E7%81%A3_Shenzhen_Bay_MixC_mall_shop_1-7_Bread_Bakery_May_2026_N13P_05.jpg",
+            "photoLicense": "CC0"
         },
         {
             "name": "Ferretería Los Andes",
             "address": "Av. Independencia, Sector La Beba, Valera, Trujillo",
             "phone": "0271-2245678",
             "website": "https://ferreterialosandes.com.ve",
-            "image": "ferreteria-los-andes.png",
+            "image": "ferreteria-los-andes.webp",
             "membershipLevel": 2,
-            "category": "Ferretería y Materiales de Construcción"
+            "category": "Ferretería y Materiales de Construcción",
+            "imageAlt": "A set of hand tools: hammer, wrenches, pliers, drill and bits",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Tools_66.jpg",
+            "photoLicense": "CC0"
         },
         {
             "name": "Restaurante El Fogón Trujillano",
             "address": "Av. Carabobo, Centro, Valera, Trujillo",
             "phone": "0271-2231122",
             "website": "https://elfogontrujillano.com",
-            "image": "el-fogon-trujillano.png",
+            "image": "el-fogon-trujillano.webp",
             "membershipLevel": 3,
-            "category": "Restaurante y Gastronomía"
+            "category": "Restaurante y Gastronomía",
+            "imageAlt": "An arepa filled with shredded meat and cheese, served with tequeños",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Arepa_y_teque%C3%B1os.JPG",
+            "photoLicense": "CC0"
         },
         {
             "name": "Farmacia San Rafael",
             "address": "Calle 8 entre Av. 9 y 10, Valera, Trujillo",
             "phone": "0271-2256789",
             "website": "https://farmaciasanrafaelvalera.com",
-            "image": "farmacia-san-rafael.png",
+            "image": "farmacia-san-rafael.webp",
             "membershipLevel": 1,
-            "category": "Salud y Farmacia"
+            "category": "Salud y Farmacia",
+            "imageAlt": "Pharmacy shelves with small drawers and boxes of medicine",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Hospital_Pharmacy.JPG",
+            "photoLicense": "Public domain"
         },
         {
             "name": "Valera Motors - Taller Mecánico",
             "address": "Av. Los Estudiantes, Sector Monseñor Carrillo, Valera, Trujillo",
             "phone": "0414-7712345",
             "website": "https://valeramotors.com",
-            "image": "valera-motors.png",
+            "image": "valera-motors.webp",
             "membershipLevel": 2,
-            "category": "Automotriz y Mecánica"
+            "category": "Automotriz y Mecánica",
+            "imageAlt": "A mechanic workshop with a workbench of tools and a car on a lift",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Car_mechanic%27s_workbench_(Unsplash).jpg",
+            "photoLicense": "CC0"
         },
         {
             "name": "Librería y Papelería El Saber",
             "address": "Av. 10 con Calle 9, Centro, Valera, Trujillo",
             "phone": "0271-2219900",
             "website": "https://libreriaelsaber.com.ve",
-            "image": "libreria-el-saber.png",
+            "image": "libreria-el-saber.webp",
             "membershipLevel": 1,
-            "category": "Papelería y Educación"
+            "category": "Papelería y Educación",
+            "imageAlt": "A long bookstore aisle with shelves of books",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Strand_Bookstore_shelves.jpg",
+            "photoLicense": "CC0"
         },
         {
             "name": "Hotel Trujillo Plaza",
             "address": "Av. Bolívar con Av. 12, Valera, Trujillo",
             "phone": "0271-2233445",
             "website": "https://hoteltrujilloplaza.com",
-            "image": "hotel-trujillo-plaza.png",
+            "image": "hotel-trujillo-plaza.webp",
             "membershipLevel": 3,
-            "category": "Hospedaje y Turismo"
+            "category": "Hospedaje y Turismo",
+            "imageAlt": "A hotel room with two beds and a bedside lamp",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:My_Hotel_room_at_Grand_Hotel_Mackinac_Island.jpg",
+            "photoLicense": "CC0"
         },
         {
             "name": "Cyber Valera Net",
             "address": "Av. 9 entre Calles 7 y 8, Valera, Trujillo",
             "phone": "0424-5567890",
             "website": "https://cybervaleranet.com",
-            "image": "cyber-valera-net.png",
+            "image": "cyber-valera-net.webp",
             "membershipLevel": 1,
-            "category": "Tecnología y Servicios de Internet"
+            "category": "Tecnología y Servicios de Internet",
+            "imageAlt": "A computer room with rows of desks and computers",
+            "photoSource": "https://commons.wikimedia.org/wiki/File:Computer_Lab_Baraboo.jpg",
+            "photoLicense": "CC0"
         }
     ]
 }
