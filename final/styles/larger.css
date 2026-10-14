@@ -1,0 +1,83 @@
+/* =========================================================
+   Abinadi's Digital Labs — larger.css
+   Only overrides what changes at 700px and up.
+   Header order at desktop: logo · nav · toggle (far right)
+   ========================================================= */
+
+@media (min-width: 700px) {
+
+    header {
+        padding: 1rem 1.5rem;
+        flex-wrap: nowrap;
+    }
+
+    .brand img {
+        width: 10rem;
+    }
+
+    .lang-toggle {
+        order: 3;
+        margin-left: auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        order: 2;
+        flex-basis: auto;
+        margin-left: 1.5rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 0.25rem;
+    }
+
+    nav a {
+        padding: 0.6rem 0.85rem;
+        border-left: none;
+        border-bottom: 4px solid transparent;
+    }
+
+    nav a[aria-current="page"] {
+        border-left-color: transparent;
+        border-bottom-color: var(--color-secondary);
+    }
+
+    main {
+        padding: 2rem 1.5rem;
+    }
+
+    /* Optional: cap the hero so it doesn't dominate the page. */
+    .hero img {
+        max-height: 22rem;
+        object-fit: cover;
+    }
+
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tool-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================================================
+   Wider screens: three-column tool grid and four-column
+   category grid.
+   ========================================================= */
+
+@media (min-width: 1000px) {
+
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #tool-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

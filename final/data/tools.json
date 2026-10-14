@@ -1,0 +1,256 @@
+{
+  "tools": [
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "category": "email",
+      "pricing": "freemium",
+      "url": "https://mailchimp.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "bestUse": {
+        "en": "Best for established businesses that need a full-featured marketing platform with advanced automation and analytics, even if the pricing gets steep as your list grows.",
+        "es": "Ideal para empresas establecidas que necesitan una plataforma de marketing completa con automatización y análisis avanzados, aunque el precio sube bastante a medida que crece tu lista."
+      }
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo",
+      "category": "email",
+      "pricing": "freemium",
+      "url": "https://www.brevo.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "it"
+      ],
+      "bestUse": {
+        "en": "A strong choice if you want email marketing plus SMS and WhatsApp campaigns in one place, especially for European audiences.",
+        "es": "Una opción sólida si buscas email marketing junto con campañas de SMS y WhatsApp en un solo lugar, especialmente para audiencias europeas."
+      }
+    },
+    {
+      "id": "mailerlite",
+      "name": "MailerLite",
+      "category": "email",
+      "pricing": "freemium",
+      "url": "https://www.mailerlite.com",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "bestUse": {
+        "en": "Great for small businesses and creators who want clean, easy-to-use email marketing with a genuinely useful free tier.",
+        "es": "Excelente para pequeñas empresas y creadores que buscan un email marketing sencillo y fácil de usar con un plan gratuito realmente útil."
+      }
+    },
+    {
+      "id": "kit",
+      "name": "Kit (formerly ConvertKit)",
+      "category": "email",
+      "pricing": "freemium",
+      "url": "https://kit.com",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "Built for creators who sell digital products and want to nurture an audience through automated email sequences and landing pages.",
+        "es": "Diseñado para creadores que venden productos digitales y quieren nutrir a su audiencia mediante secuencias de correo automatizadas y páginas de destino."
+      }
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "category": "social",
+      "pricing": "freemium",
+      "url": "https://buffer.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "bestUse": {
+        "en": "Ideal for solopreneurs and small teams who want simple social scheduling and publishing without a steep learning curve.",
+        "es": "Ideal para emprendedores individuales y equipos pequeños que quieren programar y publicar en redes sociales de forma sencilla, sin una curva de aprendizaje complicada."
+      }
+    },
+    {
+      "id": "metricool",
+      "name": "Metricool",
+      "category": "social",
+      "pricing": "freemium",
+      "url": "https://metricool.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt"
+      ],
+      "bestUse": {
+        "en": "Best for social media managers who need analytics, scheduling, and competitor tracking in one dashboard at an affordable price.",
+        "es": "La mejor opción para gestores de redes sociales que necesitan análisis, programación y seguimiento de competidores en un solo panel a un precio asequible."
+      }
+    },
+    {
+      "id": "later",
+      "name": "Later",
+      "category": "social",
+      "pricing": "freemium",
+      "url": "https://later.com",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "Great for visual-first brands on Instagram and TikTok that want to plan content grids and schedule posts with a strong mobile experience.",
+        "es": "Excelente para marcas con enfoque visual en Instagram y TikTok que quieren planificar cuadrículas de contenido y programar publicaciones con una buena experiencia móvil."
+      }
+    },
+    {
+      "id": "hootsuite",
+      "name": "Hootsuite",
+      "category": "social",
+      "pricing": "paid",
+      "url": "https://www.hootsuite.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "it",
+        "ja"
+      ],
+      "bestUse": {
+        "en": "A solid fit for larger teams and agencies that need robust social listening, analytics, and multi-account management across many platforms.",
+        "es": "Una opción sólida para equipos grandes y agencias que necesitan monitoreo social robusto, análisis y gestión de múltiples cuentas en muchas plataformas."
+      }
+    },
+    {
+      "id": "clickfunnels",
+      "name": "ClickFunnels",
+      "category": "funnels",
+      "pricing": "paid",
+      "url": "https://www.clickfunnels.com",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "Best for marketers who want a complete sales funnel builder with checkout, upsells, and email follow-up built into one system.",
+        "es": "La mejor opción para especialistas en marketing que buscan un creador completo de embudos de venta con pago, ventas adicionales y seguimiento por correo integrados en un solo sistema."
+      }
+    },
+    {
+      "id": "systeme-io",
+      "name": "Systeme.io",
+      "category": "funnels",
+      "pricing": "freemium",
+      "url": "https://systeme.io",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "it"
+      ],
+      "bestUse": {
+        "en": "Ideal for bootstrapped founders who want an all-in-one funnel builder, email marketing, and course platform without paying for separate tools.",
+        "es": "Ideal para fundadores que empiezan con poco presupuesto y quieren un creador de embudos, email marketing y plataforma de cursos todo en uno, sin pagar por herramientas separadas."
+      }
+    },
+    {
+      "id": "kartra",
+      "name": "Kartra",
+      "category": "funnels",
+      "pricing": "paid",
+      "url": "https://kartra.com",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "A good fit for course creators and membership site owners who want funnels, email, and video hosting under one roof.",
+        "es": "Una buena opción para creadores de cursos y propietarios de sitios de membresía que quieren embudos, correo electrónico y alojamiento de video bajo un mismo techo."
+      }
+    },
+    {
+      "id": "leadpages",
+      "name": "Leadpages",
+      "category": "funnels",
+      "pricing": "paid",
+      "url": "https://www.leadpages.com",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "Great for businesses that focus on high-converting landing pages and lead magnets rather than full sales funnels.",
+        "es": "Excelente para empresas que se centran en páginas de destino y captación de clientes potenciales de alta conversión, más que en embudos de venta completos."
+      }
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "ai",
+      "pricing": "freemium",
+      "url": "https://chatgpt.com",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "it",
+        "ja",
+        "zh"
+      ],
+      "bestUse": {
+        "en": "A versatile AI assistant for brainstorming, drafting content, writing code, and handling research tasks across almost any business workflow.",
+        "es": "Un asistente de IA versátil para generar ideas, redactar contenido, escribir código y realizar tareas de investigación en casi cualquier flujo de trabajo empresarial."
+      }
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "category": "ai",
+      "pricing": "paid",
+      "url": "https://www.jasper.ai",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "pt",
+        "it",
+        "ja"
+      ],
+      "bestUse": {
+        "en": "Best for marketing teams that need brand-consistent AI content generation at scale with team collaboration features.",
+        "es": "La mejor opción para equipos de marketing que necesitan generar contenido con IA a escala y mantener la coherencia de marca, con funciones de colaboración en equipo."
+      }
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "category": "ai",
+      "pricing": "freemium",
+      "url": "https://www.copy.ai",
+      "languages": [
+        "en"
+      ],
+      "bestUse": {
+        "en": "A strong pick for sales and marketing teams that want AI-powered workflow automation for content creation, prospecting, and lead research.",
+        "es": "Una opción sólida para equipos de ventas y marketing que quieren automatización de flujos de trabajo con IA para creación de contenido, prospección e investigación de clientes potenciales."
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Consultation | Abinadi's Digital Labs</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description"
+        content="Request a personalized consultation about which digital marketing tools fit your business, budget and language needs.">
+    <meta name="author" content="Hector Abinadi Suarez Valderrama">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Request a Consultation | Abinadi's Digital Labs">
+    <meta property="og:description"
+        content="Request a personalized consultation about which digital marketing tools fit your business, budget and language needs.">
+    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/final/consultation.html">
+    <meta property="og:image" content="https://abinadisuarez.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+3:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="images/logo-wordmark.png" alt="Abinadi's Digital Labs" width="822" height="240">
+        </a>
+
+        <div class="lang-toggle" role="group" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="site-nav">
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="toolkit.html" data-i18n="nav.toolkit">Toolkit</a></li>
+                <li><a href="consultation.html" aria-current="page" data-i18n="nav.consultation">Consultation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1 data-i18n="consultation.title">Request a consultation</h1>
+        <p data-i18n="consultation.intro">
+            Tell us what you are working on, and we will recommend the tools that fit your
+            business, your budget and your language.
+        </p>
+
+        <p class="required-note" data-i18n="form.required">* required</p>
+
+        <form class="consult-form" action="thankyou.html" method="get">
+            <label>
+                <span data-i18n="form.firstName">First name</span>
+                <input type="text" name="firstName" autocomplete="given-name" required>
+            </label>
+
+            <label>
+                <span data-i18n="form.lastName">Last name</span>
+                <input type="text" name="lastName" autocomplete="family-name" required>
+            </label>
+
+            <label>
+                <span data-i18n="form.email">Email</span>
+                <input type="email" name="email" autocomplete="email" required data-i18n-placeholder="form.emailExample"
+                    placeholder="name@example.com">
+            </label>
+
+            <label>
+                <span data-i18n="form.phone">Phone (optional)</span>
+                <input type="tel" name="phone" autocomplete="tel" pattern="[0-9+\-\(\)\s]{7,20}"
+                    data-i18n-title="form.phoneRule" title="Digits, spaces, +, - and parentheses are allowed.">
+            </label>
+
+            <label>
+                <span data-i18n="form.business">Business or project</span>
+                <input type="text" name="business" autocomplete="organization">
+            </label>
+
+            <label>
+                <span data-i18n="form.topic">What do you need help with?</span>
+                <select name="topic" required>
+                    <option value="" data-i18n="form.topicChoose">Choose one…</option>
+                    <option value="email" data-i18n="category.email">Email marketing</option>
+                    <option value="social" data-i18n="category.social">Social media</option>
+                    <option value="funnels" data-i18n="category.funnels">Funnels</option>
+                    <option value="ai" data-i18n="category.ai">AI content</option>
+                    <option value="other" data-i18n="topic.other">Something else</option>
+                </select>
+            </label>
+
+            <fieldset>
+                <legend data-i18n="form.language">Preferred language</legend>
+                <label class="radio">
+                    <input type="radio" name="language" value="en" checked>
+                    <span>English</span>
+                </label>
+                <label class="radio">
+                    <input type="radio" name="language" value="es">
+                    <span>Español</span>
+                </label>
+            </fieldset>
+
+            <label>
+                <span data-i18n="form.message">Tell us more</span>
+                <textarea name="message" rows="5" maxlength="500"></textarea>
+            </label>
+
+            <button type="submit" data-i18n="form.submit">Request consultation</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Hector Abinadi Suarez Valderrama | WDD 231</p>
+        <ul>
+            <li><a href="#" data-i18n="footer.video">Project video</a></li>
+            <li><a href="attributions.html" data-i18n="footer.attributions">Attributions</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

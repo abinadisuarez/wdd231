@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Request | Abinadi's Digital Labs</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description"
+        content="Confirmation page showing the consultation request you submitted to Abinadi's Digital Labs.">
+    <meta name="author" content="Hector Abinadi Suarez Valderrama">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Thank You for Your Request | Abinadi's Digital Labs">
+    <meta property="og:description"
+        content="Confirmation page showing the consultation request you submitted to Abinadi's Digital Labs.">
+    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/final/thankyou.html">
+    <meta property="og:image" content="https://abinadisuarez.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+3:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/thankyou.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="images/logo-wordmark.png" alt="Abinadi's Digital Labs" width="822" height="240">
+        </a>
+
+        <div class="lang-toggle" role="group" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="site-nav">
+            <ul>
+                <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li><a href="toolkit.html" data-i18n="nav.toolkit">Toolkit</a></li>
+                <li><a href="consultation.html" data-i18n="nav.consultation">Consultation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1 id="thanks-title" data-i18n="thankyou.title">Thank you!</h1>
+        <p data-i18n="thankyou.intro">
+            We received your request and will reply within two business days.
+        </p>
+
+        <h2 data-i18n="thankyou.summary">Here is what you sent us</h2>
+        <dl id="results" class="results"></dl>
+
+        <p><a href="consultation.html" data-i18n="thankyou.back">Back to the form</a></p>
+    </main>
+
+    <footer>
+        <p>Hector Abinadi Suarez Valderrama | WDD 231</p>
+        <ul>
+            <li><a href="#" data-i18n="footer.video">Project video</a></li>
+            <li><a href="attributions.html" data-i18n="footer.attributions">Attributions</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinadi's Digital Labs | Bilingual Marketing Toolkit</title>
+    <link rel="icon" href="images/favicon.ico">
+    <meta name="description"
+        content="A bilingual directory of digital marketing tools for small business owners, freelancers and Spanish-speaking entrepreneurs.">
+    <meta name="author" content="Hector Abinadi Suarez Valderrama">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abinadi's Digital Labs | Bilingual Marketing Toolkit">
+    <meta property="og:description"
+        content="A bilingual directory of digital marketing tools for small business owners, freelancers and Spanish-speaking entrepreneurs.">
+    <meta property="og:url" content="https://abinadisuarez.github.io/wdd231/final/index.html">
+    <meta property="og:image" content="https://abinadisuarez.github.io/wdd231/final/images/hero.webp">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Sans+3:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header>
+        <a href="index.html" class="brand">
+            <img src="images/logo-wordmark.png" alt="Abinadi's Digital Labs" width="822" height="240">
+        </a>
+
+        <div class="lang-toggle" role="group" aria-label="Language">
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-nav">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav id="site-nav">
+            <ul>
+                <li><a href="index.html" aria-current="page" data-i18n="nav.home">Home</a></li>
+                <li><a href="toolkit.html" data-i18n="nav.toolkit">Toolkit</a></li>
+                <li><a href="consultation.html" data-i18n="nav.consultation">Consultation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <img src="images/hero.webp"
+                alt="A white laptop on a bright desk next to a coffee cup and a vase of yellow flowers"
+                data-i18n-alt="home.altHero" width="1200" height="600" fetchpriority="high" decoding="async">
+            <h1 data-i18n="home.title">Find the right marketing tool, in your language</h1>
+            <p data-i18n="home.intro">
+                A bilingual toolkit of digital marketing software, chosen from over two decades of
+                hands-on campaign experience.
+            </p>
+            <a class="cta" href="toolkit.html" data-i18n="home.cta">Browse the toolkit</a>
+        </section>
+
+        <section class="intro">
+            <h2 data-i18n="home.whoTitle">Who it serves</h2>
+            <p data-i18n="home.whoBody">
+                Small business owners, freelancers and Spanish-speaking entrepreneurs who need a
+                straight answer about which software to use, without wading through generic lists.
+            </p>
+        </section>
+
+        <section class="categories">
+            <h2 data-i18n="home.categoriesTitle">Browse by category</h2>
+            <div class="category-grid">
+                <a class="category-card" href="toolkit.html?category=email">
+                    <img src="images/category-email.webp" alt="A wall of numbered mailboxes"
+                        data-i18n-alt="home.altEmail" width="600" height="400" loading="lazy" decoding="async">
+                    <h3 data-i18n="category.email">Email marketing</h3>
+                    <p data-i18n="home.categoryEmail">Tools for building a list and sending campaigns that get opened.
+                    </p>
+                </a>
+                <a class="category-card" href="toolkit.html?category=social">
+                    <img src="images/category-social.webp" alt="Two smartphones lying on a dark surface"
+                        data-i18n-alt="home.altSocial" width="600" height="400" loading="lazy" decoding="async">
+                    <h3 data-i18n="category.social">Social media</h3>
+                    <p data-i18n="home.categorySocial">Schedulers and analytics for the platforms your audience uses.
+                    </p>
+                </a>
+                <a class="category-card" href="toolkit.html?category=funnels">
+                    <img src="images/category-funnels.webp" alt="A worn metal funnel on a table"
+                        data-i18n-alt="home.altFunnels" width="600" height="400" loading="lazy" decoding="async">
+                    <h3 data-i18n="category.funnels">Funnels</h3>
+                    <p data-i18n="home.categoryFunnels">Landing pages and checkout flows that turn visitors into
+                        customers.</p>
+                </a>
+                <a class="category-card" href="toolkit.html?category=ai">
+                    <img src="images/category-ai.webp" alt="A painting robot on display in a glass case"
+                        data-i18n-alt="home.altAi" width="600" height="400" loading="lazy" decoding="async">
+                    <h3 data-i18n="category.ai">AI content</h3>
+                    <p data-i18n="home.categoryAi">Writing assistants for drafts, headlines and campaign copy.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hector Abinadi Suarez Valderrama | WDD 231</p>
+        <ul>
+            <li><a href="#" data-i18n="footer.video">Project video</a></li>
+            <li><a href="attributions.html" data-i18n="footer.attributions">Attributions</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
